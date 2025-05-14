@@ -1,0 +1,147 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=password],
+input[type=tel],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none !important;
+    outline-style: none;
+}
+
+input:focus-visible {
+    outline-width: 0px;
+}
+
+textarea:focus-visible {
+    outline-width: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+/* ----------Styling---------- */
+
+/* fonts poppins  */
+@font-face {
+    font-family: Gilroy;
+    src: url(../font/Gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../font/Gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../font/Gilroy/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(../font/Gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Black.ttf);
+}
+
+/* ================================== */
+
+*{
+    font-family: Gilroy;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1079px;
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* .service-wrapper{
+    width: 1610px;
+    height: 341px;
+} */
