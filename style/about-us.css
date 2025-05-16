@@ -279,7 +279,27 @@ margin-top: 22px;
     }
 }
 
+@media screen and (max-width: 408px){
+
+
+    #header .navbar-brand {
+        width: 50%;
+    }
+
+    #header .navbar-brand img{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 376px){
+ #header .navbar-brand {
+        width: 50%;
+    }
+
+    #header .navbar-brand img{
+        width: 100%;
+    }
+
        .footer .texts {
         gap: 30px;
     }
