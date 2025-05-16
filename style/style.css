@@ -1268,7 +1268,7 @@ video {
 
 /* Optional: Hide menu by default on small screens */
 .menu {
-  display: none;
+  /* display: none; */
 }
 
 #services {
