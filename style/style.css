@@ -570,7 +570,6 @@ video {
     background-image: url(../images/banner-bgrnd-img.png);
     background-position: center; 
     background-size: cover;
-    /* width: 1920px; */
     height: 743px;
    
 }
@@ -823,12 +822,6 @@ video {
 
 
 
-#about .about-contents{
-   /* display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 10px; */
- 
-} 
 
 
 

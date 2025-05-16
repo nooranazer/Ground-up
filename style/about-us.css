@@ -1,0 +1,286 @@
+header .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header .wrapper ul li a {
+    color: #000000;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+}
+
+#header .dropdown-menu {
+    width: 250px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px 0px;
+}
+
+#header .dropdown-item {
+    white-space: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 17px;
+}
+
+ 
+
+/* banner section */
+
+#banner .wrapper .main-txt{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#banner .wrapper{
+    background-image: url(../images/about-us\ bg.png);
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+#banner .main-txt h1{
+    font-family: Gilroy-Bold;
+    font-size: 50px;
+    color: #05A93D;
+    padding-top: 108px ;
+    padding-bottom: 101px;
+    max-width: 612px;
+    
+}
+
+/* service section */
+
+#service .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#service .wrapper .texts p{
+font-family:Gilroy-Medium ;
+font-size: 16px;
+line-height: 28px;
+color: #777777;
+}
+
+/* grid card */
+#service {
+      
+   margin-top: 82px;
+   margin-bottom: 89px;
+}
+
+#service .grid-card{
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 22.36px;
+    margin-top: 39px;
+    margin-bottom: 18px;
+}
+
+#service .service-items{
+   padding-top: 23.85px;
+   padding-left: 19.91px;
+   padding-right: 25.84px;
+   padding-bottom: 24.57px;
+   
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px 0px;
+}
+
+#service .icon {
+   display: flex;
+    border-radius: 50%;
+    background-color: #F67C01;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+     padding: 40px;
+}
+
+#service h3{
+   font-family: Gilroy-SemiBold;
+   font-size: 18px;
+   line-height: 100%;
+   letter-spacing: 2%;
+   margin-top: 15.14px;
+   margin-bottom: 7.07px;
+}
+
+#service .service-items  p{
+   font-family: Gilroy-Medium;
+   font-size: 13px;
+   line-height: 20.4px;
+   letter-spacing: 2%;
+   color: #777777;
+   margin-bottom: 31px;
+
+} 
+
+
+#service .wrapper .head1 h2{
+font-family: 
+Gilroy-SemiBold;
+font-size: 23px;
+line-height: 28px;
+letter-spacing: 2%;
+margin-top: 45px;
+
+}
+
+#service .wrapper .head1 p{
+font-family:Gilroy-Medium ;
+font-size: 16px;
+line-height: 28px;
+color: #777777;
+margin-top: 22px;
+margin-bottom: 47px;
+
+
+}
+
+#service .wrapper .head2 h2{
+font-family: 
+Gilroy-SemiBold;
+font-size: 23px;
+line-height: 28px;
+letter-spacing: 2%;
+
+
+}
+
+#service .wrapper .head2 p{
+font-family:Gilroy-Medium  ;
+font-size: 16px;
+line-height: 28px;
+color: #777777;
+margin-top: 22px;
+
+
+
+}
+
+#service .bold-text {
+    font-family: Gilroy-SemiBold;
+}
+
+/* footer */
+.footer {
+   background-color: #05A93D;
+   text-align: center;
+
+}
+
+.footer .logo img{
+   margin-top: 65px;
+}
+
+.footer .texts{
+   display: flex;
+   justify-content: center;
+   gap: 72px;
+   margin-top: 37.7px;
+   margin-bottom: 41px;
+} 
+
+.footer .texts a{
+   font-size: 17px;
+   font-family: Gilroy-Medium;
+   text-decoration: none;
+   line-height: 100%;
+   color: #FFFFFF;
+}
+
+.footer .icon-img{
+    display: flex;
+    justify-content: center;
+    column-gap: 11px;
+}
+   
+.footer .social-media{ 
+   display: flex;
+    border-radius: 50%;
+    background-color: #F67C01;
+    height: 37.81px;
+    width: 37.81px;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+
+.footer hr{
+   margin-top: 44.19px;
+   width: 100%;
+   color: #FFFFFF;
+}
+
+
+.footer .para p{
+   font-family: Gilroy-Medium;
+   font-size: 14px;
+   line-height: 100%;
+   letter-spacing: 13%;
+   color: #FFFFFF;
+   padding-top: 85.19px;
+   padding-bottom: 43px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1199px) {
+    header .wrapper, #service .wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+      #banner .wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+      footer .wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+   #service .grid-card{
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+      gap: 22.36px;
+   }
+}
+
+@media only screen and (max-width: 767px)  {
+   #service .grid-card{
+      width: 100%;
+      grid-template-columns: 1fr ;
+      gap: 22.36px;
+   }
+}
+
+@media only screen and (max-width: 500px){
+    .footer .texts a{
+      font-size: 12px;
+    }
+
+    .footer .texts{
+      gap: 56px;
+    }
+}
+
+@media screen and (max-width: 376px){
+       .footer .texts {
+        gap: 30px;
+    }
+}
